@@ -27,6 +27,7 @@ O Desafio consiste em construir uma aplicação separada entre backend, frontend
     ```bash
         docker-compose up
     ```
+* Acessar pela url: `http://localhost:8080/SmartBr-1/index.xhtml`
 ## Considerações importantes
 * Tive algumas dificuldades com relação a configuração inicial do projeto frontend por nunca ter trabalhado com JSF, pois existem varios detalhes de configuração que são impressindiveis pra que a apicação rode.
 * Tentei implementar algumas funcionalidades como um dialog para quando o salvamento é efetuado com sucesso, porém não obtive exito, penso que por conta da pouca familiaridade com JSF. Ao clicar no botão `Salvar` não há nenhum feedback da página, mas ao realizar nova consulta no mesmo CNPJ verifica-se que os dados foram persistidos.
